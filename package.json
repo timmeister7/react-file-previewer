@@ -15,7 +15,7 @@
   "scripts": {
     "test": "jest",
     "lint": "echo 'todo'",
-    "prepublish": "npm run build",
+    "prepare": "npm run build",
     "build": "rimraf ./dist && rollup -c",
     "publish-npm": "npm run build && npm publish",
     "watch": "rimraf ./dist && rollup -c -w",
