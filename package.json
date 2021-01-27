@@ -1,9 +1,9 @@
 {
-  "name": "react-file-previewer",
+  "name": "react-file-previewer-v2",
   "version": "0.6.3",
   "main": "dist/index.cjs.js",
   "module": "dist/index.es.js",
-  "repository": "git@github.com:vendorpay/react-file-previewer.git",
+  "repository": "git@github.com:timmeister7/react-file-previewer.git",
   "author": "Jonathan Stevens<jonathanstevens89@gmail.com>",
   "keywords": [
     "pdf viewer",
