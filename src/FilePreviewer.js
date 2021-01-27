@@ -182,15 +182,6 @@ const FilePreviewer = props => {
 
   return (
     <div ref={viewportRef} onClick={props.onClick} className="preview-wrapper">
-      <PreviewBar
-        onPageUp={onPageUp}
-        onRotate={onRotate}
-        totalPages={totalPages}
-        onDownload={onDownload}
-        onPageDown={onPageDown}
-        currentPage={currentPage}
-        hidden={props.hideControls}
-      />
 
       <ViewportContent
         file={file}
